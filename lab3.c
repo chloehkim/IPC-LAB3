@@ -34,7 +34,7 @@ else
 
 int biggest(int first, int second, int third)
 {
-    int big=0; 
+    int big=0; //이거 중요 개념 이해하기!
 
     if(first > second)
         {
