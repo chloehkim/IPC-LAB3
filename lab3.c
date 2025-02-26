@@ -14,3 +14,20 @@ int isLower(char letter)
         
     return result;
 }
+
+char toUpper(char letter)
+{
+int result = isLower(letter);
+char upper;
+
+if(result == 1)
+    {
+        upper = (char)(letter -32);
+    }
+else
+    {
+        upper = letter;
+    }
+
+    return upper;
+}

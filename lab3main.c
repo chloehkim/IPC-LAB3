@@ -6,7 +6,7 @@ int isLower(char letter);
 
 int main(void)
 {
-    char a;
+    char a,b;
     
     printf("enter anything:   \n");
     scanf("%c", &a);
@@ -15,5 +15,13 @@ int main(void)
 
     printf("isLower (%c) returns %d\n",a, answer);
 
-    return 0;
+    printf("enter any letter:   \n");
+
+    scanf("  %c", &b);
+
+    char U = toUpper(b);
+
+     printf("toUpper %c returns %c\n", b, U);
+
+     return 0 ;
 }
