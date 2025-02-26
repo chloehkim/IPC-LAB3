@@ -31,3 +31,32 @@ else
 
     return upper;
 }
+
+int biggest(int first, int second, int third)
+{
+    int big=0; 
+
+    if(first > second)
+        {
+            if(first > third)
+                {
+                    return big = first;
+                }    
+            else   
+                {
+                    return big = third;
+                }
+        }
+     else if (first < second)
+        {
+            if(second > third)
+                {
+                    return big = second;
+                }
+            else
+            {
+               return big = third; 
+            }
+        }   
+  return big;
+}

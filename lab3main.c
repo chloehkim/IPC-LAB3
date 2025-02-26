@@ -7,6 +7,7 @@ int isLower(char letter);
 int main(void)
 {
     char a,b;
+    int first, second, third, bigger;
     
     printf("enter anything:   \n");
     scanf("%c", &a);
@@ -23,5 +24,13 @@ int main(void)
 
      printf("toUpper %c returns %c\n", b, U);
 
+    printf("enter three numbers:   \n");
+    scanf("%d",&first);
+    scanf("%d",&second);
+    scanf("%d",&third);
+
+    bigger = biggest(first, second, third);
+
+    printf("biggest %d, %d, %d returns %d\n", first, second, third, bigger);
      return 0 ;
 }
